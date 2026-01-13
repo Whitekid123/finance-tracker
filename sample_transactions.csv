@@ -1,0 +1,11 @@
+Date,Description,Amount,Type,Receiver
+2024-01-01,Payment for Pizza,5000,Debit,Dominos Pizza
+2024-01-02,Uber Ride to Work,2500,Debit,Uber Technologies
+2024-01-03,Transfer from John for Lunch,1500,Credit,John Doe
+2024-01-04,Grocery Shopping,12000,Debit,Shoprite
+2024-01-05,Fuel for Car,5000,Debit,Total Station
+2024-01-06,Monthly Salary,250000,Credit,Employer Inc
+2024-01-07,Electric Bill,10000,Debit,Ikeja Electric
+2024-01-08,Data Subscription,5000,Debit,MTN Nigeria
+2024-01-09,Dinner at Place,4500,Debit,Mega Chicken
+2024-01-10,Unknown Expense,1000,Debit,Random Shop
