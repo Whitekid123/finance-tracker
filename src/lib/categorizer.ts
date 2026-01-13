@@ -40,11 +40,8 @@ export const autoCategorize = (raw: RawTransaction[]): Transaction[] => {
       }
     }
 
-    let cleanAmount = typeof item.amount === 'string' 
-      ? parseFloat(item.amount.replace(/,/g, '')) 
-      : item.amount;
-    
-    if (isNaN(cleanAmount)) cleanAmount = 0;
+    // FIX: We removed the string check because the FileUploader ensures this is already a number
+    const cleanAmount = Number(item.amount) || 0;
 
     return {
       ...item,
